@@ -60,8 +60,10 @@ static void win_back_cb(void *data, Evas_Object *obj, void *event_info) {
     //Application *ad = (Application *)data;
     /* Let window go to hidden state. */
     //elm_win_lower(ad->_win);
-    cocos2d::EventKeyboard event(cocos2d::EventKeyboard::KeyCode::KEY_ESCAPE, false);
-    cocos2d::Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+ //   cocos2d::EventKeyboard event(cocos2d::EventKeyboard::KeyCode::KEY_ESCAPE, false);
+ //   cocos2d::Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+    stopAccelerometerSensor();
+    Director::getInstance()->end();
 }
 
 static void win_more_cb(void *data, Evas_Object *obj, void *event_info) {
@@ -440,8 +442,9 @@ static void app_terminate(void *data)
         return;
     }
     stopAccelerometerSensor();
-    Application* app = ((Application *)data);
-    delete app;
+	Director::getInstance()->end();
+  //  Application* app = ((Application *)data);
+  //  delete app;
 }
 
 static void app_control(app_control_h app_control, void *data)
