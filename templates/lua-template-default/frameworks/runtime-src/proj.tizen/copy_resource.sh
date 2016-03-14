@@ -1,4 +1,5 @@
 #!/bin/bash
+
 mkdir -p ../res/src/cocos/
 cp -r ../../../../res/* ../res/
 cp -r ../../../../src/* ../res/src/

@@ -1082,7 +1082,7 @@ void ParticleDemo::onTouchesBegan(const std::vector<Touch*>& touches, Event  *ev
 
 void ParticleDemo::onTouchesMoved(const std::vector<Touch*>& touches, Event  *event)
 {
-    return onTouchesEnded(touches, event);
+    onTouchesEnded(touches, event);
 }
 
 void ParticleDemo::onTouchesEnded(const std::vector<Touch*>& touches, Event  *event)

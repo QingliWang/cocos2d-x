@@ -115,8 +115,6 @@
 									<listOptionValue builtIn="false" value="-mthumb"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.include.paths.2047956693" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../../../../../tools/simulator/libsimulator/lib"/>
-									<listOptionValue builtIn="false" value="/home/sukwonsuh/workspace/_work/40.git/cocos2d-x/tools/simulator/libsimulator/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcocos2dx/cocos/audio/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcocos2dx/external}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcocos2dx/cocos}&quot;"/>
@@ -291,7 +289,7 @@
 							<tool id="org.tizen.nativecore.tool.fnmapgen.cpp.434216591" name="C++ FN-Map Generator" superClass="org.tizen.nativecore.tool.fnmapgen.cpp"/>
 							<tool id="org.tizen.nativecore.tool.ast.1672433422" name="C Static Analyzer" superClass="org.tizen.nativecore.tool.ast"/>
 							<tool id="org.tizen.nativecore.tool.ast.cpp.1245236113" name="C++ Static Analyzer" superClass="org.tizen.nativecore.tool.ast.cpp"/>
-							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.1851533925" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
+							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.1712983468" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -514,7 +512,7 @@
 								<option id="gnu.cpp.link.option.libs.1533974038" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="cocos2dx"/>
 								</option>
-								<option id="gnu.cpp.link.option.flags.161166308" superClass="gnu.cpp.link.option.flags" value="-static-libstdc++" valueType="string"/>
+								<option id="gnu.cpp.link.option.flags.161166308" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-static-libstdc++" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.673891179" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -529,7 +527,7 @@
 							<tool id="org.tizen.nativecore.tool.fnmapgen.cpp.1003017840" name="C++ FN-Map Generator" superClass="org.tizen.nativecore.tool.fnmapgen.cpp"/>
 							<tool id="org.tizen.nativecore.tool.ast.1873910275" name="C Static Analyzer" superClass="org.tizen.nativecore.tool.ast"/>
 							<tool id="org.tizen.nativecore.tool.ast.cpp.997025693" name="C++ Static Analyzer" superClass="org.tizen.nativecore.tool.ast.cpp"/>
-							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.1661424358" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
+							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.699680337" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -781,7 +779,7 @@
 							<tool id="org.tizen.nativecore.tool.fnmapgen.cpp.29562275" name="C++ FN-Map Generator" superClass="org.tizen.nativecore.tool.fnmapgen.cpp"/>
 							<tool id="org.tizen.nativecore.tool.ast.207207743" name="C Static Analyzer" superClass="org.tizen.nativecore.tool.ast"/>
 							<tool id="org.tizen.nativecore.tool.ast.cpp.1829166611" name="C++ Static Analyzer" superClass="org.tizen.nativecore.tool.ast.cpp"/>
-							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.1588652052" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
+							<tool id="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib.1213822930" name="Archive Generator" superClass="org.tizen.nativecore.tool.sbi.gnu.archiver.mergelib"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>

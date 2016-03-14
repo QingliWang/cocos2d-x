@@ -53,7 +53,7 @@ EditBoxImplTizen::EditBoxImplTizen(EditBox* pEditText)
 , _label(nullptr)
 , _labelPlaceHolder(nullptr)
 , _editBoxInputMode(EditBox::InputMode::SINGLE_LINE)
-, _editBoxInputFlag(EditBox::InputFlag::INTIAL_CAPS_ALL_CHARACTERS)
+, _editBoxInputFlag(EditBox::InputFlag::INITIAL_CAPS_ALL_CHARACTERS)
 , _keyboardReturnType(EditBox::KeyboardReturnType::DEFAULT)
 , _colText(Color3B::WHITE)
 , _colPlaceHolder(Color3B::GRAY)
@@ -397,7 +397,7 @@ void EditBoxImplTizen::openKeyboard()
 	case EditBox::InputFlag::INITIAL_CAPS_SENTENCE:
 		elm_entry_autocapital_type_set(entry, ELM_AUTOCAPITAL_TYPE_SENTENCE);
 		break;
-	case EditBox::InputFlag::INTIAL_CAPS_ALL_CHARACTERS:
+	case EditBox::InputFlag::INITIAL_CAPS_ALL_CHARACTERS:
 		elm_entry_autocapital_type_set(entry, ELM_AUTOCAPITAL_TYPE_ALLCHARACTER);
 		break;
 	}
